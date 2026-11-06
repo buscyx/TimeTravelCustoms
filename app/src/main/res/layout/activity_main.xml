@@ -8,9 +8,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- 3onwen -->
     <TextView
-        android:id="@+id/txt_title_mng"
+        android:id="@+id/txt_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -23,10 +22,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
-    <!-- 3. Nom -->
     <TextView
-        android:id="@+id/txt_name_mng"
+        android:id="@+id/txt_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -36,24 +33,24 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_title_mng" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_title" />
 
     <EditText
-        android:id="@+id/edt_name_mng"
+        android:id="@+id/edt_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="32dp"
         android:hint="Enter your full name"
         android:inputType="textPersonName"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/txt_name_mng"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/txt_name" />
 
-    <!-- 4. Année de naissance -->
     <TextView
-        android:id="@+id/txt_birth_mng"
+        android:id="@+id/txt_birth"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Birth Year"
@@ -61,26 +58,26 @@
         android:textStyle="bold"
         android:layout_marginStart="32dp"
         android:layout_marginTop="20dp"
-        app:layout_constraintTop_toBottomOf="@id/edt_name_mng"
+        app:layout_constraintTop_toBottomOf="@id/edt_name"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/edt_birth_mng"
+        android:id="@+id/edt_birth"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="32dp"
         android:hint="Example: 2005"
         android:inputType="number"
         android:maxLength="4"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/txt_birth_mng"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/txt_birth" />
 
-    <!-- 5. Année de destination -->
     <TextView
-        android:id="@+id/txt_destination_mng"
+        android:id="@+id/txt_destination"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Destination Year"
@@ -88,26 +85,26 @@
         android:textStyle="bold"
         android:layout_marginStart="32dp"
         android:layout_marginTop="20dp"
-        app:layout_constraintTop_toBottomOf="@id/edt_birth_mng"
+        app:layout_constraintTop_toBottomOf="@id/edt_birth"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/edt_destination_mng"
+        android:id="@+id/edt_destination"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="32dp"
         android:hint="Example: 2047"
         android:inputType="number"
         android:maxLength="4"
-        android:layout_marginStart="32dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginTop="5dp"
-        app:layout_constraintTop_toBottomOf="@id/txt_destination_mng"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/txt_destination" />
 
-    <!-- 6. Motif du voyage -->
     <TextView
-        android:id="@+id/txt_reason_mng"
+        android:id="@+id/txt_reason"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Reason for Travel"
@@ -115,50 +112,49 @@
         android:textStyle="bold"
         android:layout_marginStart="32dp"
         android:layout_marginTop="20dp"
-        app:layout_constraintTop_toBottomOf="@id/edt_destination_mng"
+        app:layout_constraintTop_toBottomOf="@id/edt_destination"
         app:layout_constraintStart_toStartOf="parent" />
 
     <RadioGroup
-        android:id="@+id/rg_reason_mng"
+        android:id="@+id/rg_reason"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintTop_toBottomOf="@id/txt_reason_mng"
+        app:layout_constraintTop_toBottomOf="@id/txt_reason"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp">
 
         <RadioButton
-            android:id="@+id/rb_tourisme_mng"
+            android:id="@+id/rb_tourisme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tourisme" />
 
         <RadioButton
-            android:id="@+id/rb_modification_mng"
+            android:id="@+id/rb_modification"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Modification du passé" />
 
         <RadioButton
-            android:id="@+id/rb_fuite_mng"
+            android:id="@+id/rb_fuite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Fuite" />
 
     </RadioGroup>
 
-    <!-- 7. Bouton -->
     <Button
-        android:id="@+id/btn_inspect_mng"
+        android:id="@+id/btn_inspect"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="INSPECTER LE PROFIL"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginTop="35dp"
-        app:layout_constraintTop_toBottomOf="@+id/rg_reason_mng"
+        app:layout_constraintTop_toBottomOf="@+id/rg_reason"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
