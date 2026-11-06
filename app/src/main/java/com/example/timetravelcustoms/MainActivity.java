@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             int selectedId = rgReason.getCheckedRadioButtonId();
 
             if (selectedId == -1) {
-                Toast.makeText(this, "Choose a reason", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Please choose a reason for Travel", Toast.LENGTH_LONG).show();
             } else {
                 RadioButton selectedRadio = findViewById(selectedId);
 
