@@ -2,17 +2,72 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:padding="16dp">
 
     <ImageView
+        android:id="@+id/img_passport_mng"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="0.3" />
+        android:layout_weight="0.3"
+        android:background="#DDE5ED"
+        android:contentDescription="Passport image"
+        android:scaleType="centerInside" />
 
     <RelativeLayout
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:layout_weight="0.7">
+        android:layout_weight="0.7"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tv_title_mng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TIME TRAVEL CUSTOMS"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_name_mng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_title_mng"
+            android:layout_marginTop="40dp"
+            android:text="TRAVELER:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_age_mng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name_mng"
+            android:layout_marginTop="30dp"
+            android:text="TEMPORAL AGE:"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_reason_mng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_age_mng"
+            android:layout_marginTop="30dp"
+            android:text="TRAVEL REASON:"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn_approve_mng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="APPROVE" />
+
+        <Button
+            android:id="@+id/btn_reject_mng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btn_approve_mng"
+            android:text="REJECT" />
 
     </RelativeLayout>
 
