@@ -43,7 +43,7 @@
         android:gravity="center"
         android:layout_marginBottom="50dp" />
 
-    <!-- hedha button bich t3awed tsefer :) -->
+    <!-- hedha button bich traja3 lil main screen:) -->
     <Button
         android:id="@+id/btn_new_traveler_mng"
         android:layout_width="match_parent"
