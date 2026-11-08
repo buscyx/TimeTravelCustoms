@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_result_mng"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#2E7D32">
 
-</LinearLayout>
+    <!-- hedha el titre -->
+    <TextView
+        android:id="@+id/tv_title_result_mng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIME TRAVEL CUSTOMS"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="40dp" />
+
+    <!-- hedhi icon mtaa resultat -->
+    <TextView
+        android:id="@+id/tv_icon_result_mng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✓"
+        android:textSize="80sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="25dp" />
+
+    <!-- hedha message resultat -->
+    <TextView
+        android:id="@+id/tv_result_mng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bon voyage !"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="50dp" />
+
+    <!-- hedha button bich traja3 lil main screen:) -->
+    <Button
+        android:id="@+id/btn_new_traveler_mng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOUVEAU VOYAGEUR"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#222222" />
+
+</LinearLayout>t>
