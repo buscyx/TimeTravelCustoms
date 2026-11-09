@@ -130,19 +130,19 @@
             android:id="@+id/rb_tourisme_mng"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Tourisme" />
+            android:text="Tourism" />
 
         <RadioButton
             android:id="@+id/rb_modification_mng"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Modification du passé" />
+            android:text="Modification of the past" />
 
         <RadioButton
             android:id="@+id/rb_fuite_mng"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Fuite" />
+            android:text="Escape" />
 
     </RadioGroup>
 
@@ -150,7 +150,7 @@
         android:id="@+id/btn_inspect_mng"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="INSPECTER LE PROFIL"
+        android:text="INSPECT PROFILE"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginTop="35dp"

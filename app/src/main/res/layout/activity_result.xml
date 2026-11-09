@@ -13,12 +13,13 @@
         android:id="@+id/tv_title_result_mng"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TIME TRAVEL CUSTOMS"
-        android:textSize="26sp"
-        android:textStyle="bold"
-        android:textColor="#FFFFFF"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="cursive"
         android:gravity="center"
-        android:layout_marginBottom="40dp" />
+        android:text="Time Travel Customs"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold" />
 
     <!-- hedhi icon mtaa resultat -->
     <TextView
@@ -36,7 +37,7 @@
         android:id="@+id/tv_result_mng"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Bon voyage !"
+        android:text="Bon Voyage !"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="#FFFFFF"

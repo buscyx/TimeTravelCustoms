@@ -34,12 +34,13 @@
             android:id="@+id/tv_title_mng"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TIME TRAVEL PASSPORT"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:textColor="#263B53"
+            android:fontFamily="cursive"
             android:gravity="center"
-            android:padding="10dp"/>
+            android:padding="10dp"
+            android:text="Time Travel Passport"
+            android:textColor="#263B53"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tv_name_mng"
@@ -47,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_title_mng"
             android:layout_marginTop="30dp"
-            android:text="TRAVELER:"
+            android:text="Traveler:"
             android:textSize="16sp"
             android:textColor="#222222"
             android:padding="8dp"/>
@@ -58,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_name_mng"
             android:layout_marginTop="15dp"
-            android:text="TEMPORAL AGE:"
+            android:text="Temporal Age:"
             android:textSize="16sp"
             android:textColor="#222222"
             android:padding="8dp"/>
@@ -69,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_age_mng"
             android:layout_marginTop="15dp"
-            android:text="TRAVEL REASON:"
+            android:text="Travel Reason:"
             android:textSize="16sp"
             android:textColor="#222222"
             android:padding="8dp"/>
