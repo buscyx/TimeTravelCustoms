@@ -60,7 +60,7 @@ public class VerificationActivity extends AppCompatActivity {
         tvReason.setText("TRAVEL REASON: " + reason);
 
         // paradoxe
-        if (reason.equals("Modification du passé")
+        if (reason.equals("Modification of the past")
                 && isPrime(temporalAge)) {
 
             btnApprove.setEnabled(false);

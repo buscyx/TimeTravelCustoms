@@ -9,7 +9,7 @@ Douane Temporelle is a mobile application that simulates a customs checkpoint fo
 - **Traveler Registration:** Enter name, birth year, destination year, and travel reason.
 - **Paradox Scanner:** Display traveler information in a passport-style interface.
 - **Time Travel Approval:** Approve or reject the travel request.
-- **Paradox Detection:** Automatically disable approval if the travel reason is "Modification du passé" and the time difference is a prime number.
+- **Paradox Detection:** Automatically disable approval if the travel reason is "Modification of the past" and the time difference is a prime number.
 - **Final Verdict:** Display a personalized approval or arrest message.
 - **New Traveler:** Start a new registration.
 
